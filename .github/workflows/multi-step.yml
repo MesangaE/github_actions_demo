@@ -1,3 +1,4 @@
+
 name: Hello World
 
 on: push
@@ -6,9 +7,10 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     steps:
-      - name: Echo hello world
+      - name: checkout repo
+        uses: actions/checkout@v4
+      - name: list files and read files
         run: |
-          'echo "Hello world job 2"
            ls -al
            cat Dockerfile
 
