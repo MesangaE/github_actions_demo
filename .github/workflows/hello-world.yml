@@ -8,3 +8,9 @@ jobs:
     steps:
       - name: Echo Hello world 
         run: 'echo "Hello world"'
+
+      - name: checkout Repo
+        uses: actions/checkout@v4
+
+      - name: build docker image
+        run: docker build -t ubuntu 22.04
