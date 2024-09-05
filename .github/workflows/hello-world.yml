@@ -4,7 +4,7 @@ on: push
 
 jobs:
   my-job:
-  runs-on: ubuntu-latest
-  steps:
-   - name: Echo Hello world 
-     run: 'echo "Hello world"'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo Hello world 
+        run: 'echo "Hello world"'
