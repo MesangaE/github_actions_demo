@@ -13,4 +13,4 @@ jobs:
         uses: actions/checkout@v4
 
       - name: build docker image
-        run: docker build . -f Dockerfile -t 
+        run: docker build . -f Dockerfile 
