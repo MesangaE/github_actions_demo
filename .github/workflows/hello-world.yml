@@ -15,4 +15,4 @@ jobs:
       - name: build docker image
         run: |
            ls -al
-           docker build . -f Dockerfile -t 
+           docker build . -f Dockerfile 
