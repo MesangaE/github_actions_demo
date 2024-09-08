@@ -1,6 +1,6 @@
 name: Hello world 
 
-on: workflow_run
+on: push
 
 jobs:
   my-job:
