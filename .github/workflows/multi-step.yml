@@ -1,7 +1,7 @@
 
 name: Multi-line commands/ third party libraries
 
-on: push
+on: workflow_run
 
 jobs:
   job1:

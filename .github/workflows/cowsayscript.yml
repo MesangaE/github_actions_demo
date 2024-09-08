@@ -11,8 +11,8 @@ jobs:
 
         - name: Execute Script
           run: 
-            chmod +x ./ascii.sh
-           ./ascii.sh
+            chmod +x ~/ascii.sh
+            ~/ascii.sh
 
         - name: checkout repo files
           run: ls -ltra
